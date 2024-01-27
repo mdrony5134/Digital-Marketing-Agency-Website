@@ -1,0 +1,72 @@
+@media (max-width: 1300px){
+/* navbar */
+.header-warper .menu-navbar-nav{
+  width: auto;
+}
+}
+
+@media (max-width: 1230px){
+  /* navbar */
+  .header-warper .nav-item{
+    margin: 0px 5px;
+  }
+  .header-warper .learn-more-btn{
+    padding: 12px 15px !important;
+  }
+  /* banner */
+  .banner-warper .banner-title{
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1070px){
+  .header-warper .nav-item .nav-link{
+    font-size: 16px;
+  }
+  
+  
+}
+
+@media (max-width: 991px){
+  /* navbar */
+  .header-warper .navbar-brand img{
+    width: 180px;
+  }
+  .header-warper .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .header-warper .menu-navbar-nav{
+    text-align: center;
+  }
+  .header-warper .nav-item .nav-link{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .header-warper .nav-item:last-child .nav-link{
+    margin-bottom: 20px;
+  }
+  .header-warper .learn-more-btn{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .header-warper .navbar-collapse{
+    background-color: var(--bg-white);
+  }
+  /* banner */
+  .banner-warper .banner-title{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px){
+/* banner */
+.banner-warper{
+  padding: 100px 0 100px;
+}
+.banner-warper .row{
+  flex-direction: column-reverse;
+}
+.banner-warper .learn-more-btn-section{
+  justify-content: center;
+}
+}
