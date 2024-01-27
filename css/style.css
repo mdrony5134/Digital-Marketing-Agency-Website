@@ -207,3 +207,280 @@ body{
   height: 50px;
   object-fit: cover;
 }
+/* about */
+.about-warper{
+  padding: 100px 0 0;
+}
+.about-warper .about_number{
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 24px;
+  color: var(--text-white);
+  background-color: var(--bg-dark-green);
+  max-width: 44px;
+  border-radius: 10px;
+  padding: 4px 17px;
+  margin-bottom: 25px;
+}
+.about-warper .about_title{
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  font-weight: 800;
+  max-width: 1000px;
+  color: var(--text-black);
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+.about-wrapper .about_text{ 
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.7;
+  max-width: 700px;
+  color:var(--text-light-2);
+}
+.about-warper .inovate{
+  padding: 80px 0px;
+  background-color: var(--bg-light-2);
+}
+.about-warper .projects{
+  padding: 30px 0px !important;
+}
+.about-warper .projects h2{
+  color: var(--text-orange);
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 0;
+}
+.about-warper .projects p{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-light-2);
+}
+
+/* features */
+.features-warper{
+  padding: 100px 0 80px;
+  background-color: var(--bg-light-2);
+}
+.features-warper .features_subtitle{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: var(--text-light-2);
+}
+.features-warper .features_title{
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: var(--text-black);
+}
+.features-warper h3{
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: var(--bold-font-weight);
+  color: var(--text-black);
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.features-warper p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-light-2);
+}
+.features-warper .ft-1{
+  background-color: var(--bg-features-1);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-1:before{
+  content: url("../images/consultancy.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+.features-warper .ft-2{
+  background-color: var(--bg-features-2);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-2:before{
+  content: url("../images/solutions.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+.features-warper .ft-3{
+  background-color: var(--bg-features-3);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-3:before{
+  content: url("../images/simple.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+.features-warper .ft-4{
+  background-color: var(--bg-features-4);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-4:before{
+  content: url("../images/deadline.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+.features-warper .ft-5{
+  background-color: var(--bg-features-5);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-5:before{
+  content: url("../images/data.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+.features-warper .ft-6{
+  background-color: var(--bg-features-6);
+  padding: 40px;
+  border-radius: 10px;
+}
+.features-warper .ft-6:before{
+  content: url("../images/flexible.png");
+  position: absolute;
+  display: block;
+  margin-top: -70px;
+}
+
+/* pricing */
+.pricing-warper{
+  padding: 100px 0 0;
+}
+.pricing-warper .pricing_subtitle{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--text-light-3);
+}
+.pricing-warper .pricing_title{
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 25px;
+  color: var(--text-black);
+}
+.pricing-warper .pricing-card{
+  background-color: var(--bg-white);
+  box-shadow: 0 1px 20px rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 45px 40px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.pricing-warper .pricing-card:hover{
+  box-shadow: 0 2px 29px rgb(0 0 0 / 20%);
+  z-index: 5;
+  cursor: pointer;
+}
+.pricing-warper .pricing-period{
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--text-light-2);
+}
+.pricing-warper .pricing-card img{
+  max-width: 75%;
+}
+.pricing-warper .pricing_rate{
+  font-size: 34px;
+  font-weight: 800;
+  font-family: var(--secondary-font);
+  line-height: 1.25px;
+  color: var(--text-black);
+  margin: 20px 0;
+}
+.pricing-warper .pricing_text {
+  font-size: 12px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color:var(--text-black);
+  margin-top: 10px;
+}
+.pricing-warper .pricing_all_plan{
+  text-align: center;
+  width: 100%;
+  margin: 15px 0;
+}
+.pricing-warper .pricing_all_plan ul{
+  width: 100%;
+  list-style: none;
+  padding-inline-start: 0;
+}
+.pricing-warper .pricing_all_plan li {
+  font-size: 14px;
+  color: var(--text-dark-gray); 
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 5px;
+}
+.pricing-warper .pricing_all_plan li strike {
+  color:var(--text-light-4);
+}
+.pricing-warper .learn-more-btn{
+  background-color: var(--bg-dark-green);
+  border: var(--bg-dark-green);
+}
+.pricing-warper .featured{
+  box-shadow: 0 2px 40px rgb(0 0 0 / 5%);
+  background-color: var(--bg-white);
+  border: 5px solid var(--text-black);
+  padding: 80px 0;
+}
+.pricing-warper .pricing_ribbon{
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 20;
+}
+.pricing-warper .pricing_ribbon span{
+  font-family: var(--secondary-font);
+  position: absolute;
+  width: 225px;
+  display: block;
+  padding: 5px 0;
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+  text-align: center;
+  text-transform: uppercase;
+  top: 30px;
+  right: -45px;
+  transform: rotate(-45deg);
+}
+.pricing-warper .btn-featured{
+  background-color: var(--bg-black);
+  border-color: var(--bg-black);
+}
+.pricing-warper .featured .pricing_rate{
+  font-size: 40px;
+}

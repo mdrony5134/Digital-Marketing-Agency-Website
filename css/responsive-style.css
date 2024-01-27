@@ -23,7 +23,10 @@
   .header-warper .nav-item .nav-link{
     font-size: 16px;
   }
-  
+  /* about */
+  .about-warper .about_title{
+    font-size: 16px;
+  }
   
 }
 
@@ -56,6 +59,14 @@
   .banner-warper .banner-title{
     font-size: 35px;
   }
+  /* about */
+  .about-warper .about_number{
+    margin: 20px auto;
+  }
+  .about-warper .about_title{
+    font-size: 24px;
+  }
+
 }
 
 @media (max-width: 767px){
