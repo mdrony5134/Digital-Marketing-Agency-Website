@@ -231,7 +231,7 @@ body{
   line-height: 1.15;
   margin-bottom: 25px;
 }
-.about-wrapper .about_text{ 
+.about-war.brand_warper .about_text{ 
   font-size: 15px;
   font-weight: 600;
   line-height: 1.7;
@@ -483,4 +483,152 @@ body{
 }
 .pricing-warper .featured .pricing_rate{
   font-size: 40px;
+}
+.free-trail{
+  background-color: var(--bg-light-2);
+  padding: 80px 0 !important;
+}
+.free-trail .free_title{
+  font-family: var(--secondary-font);
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--text-black);
+  line-height: 1.15;
+}
+.free-trail .learn-more-btn{
+  background-color: var(--bg-black);
+  border-color: var(--bg-black);
+}
+.free-trail .learn-more-btn .fa{
+  font-size: 22px;
+  margin-right: 5px;
+  color: var(--text-yellow);
+  vertical-align: bottom;
+}
+/* reviews */
+.testimonial-warper{
+  padding:100px 0;
+}
+.testimonial-warper .testimonials_subtitle{ 
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: var(--text-light-3);
+}
+.testimonial-warper .testimonials_title{
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 80px;
+  color:var(--text-black);
+}
+.testimonial-warper .testimonials_card{
+  border-radius: 15px;
+  padding: 50px;
+  background-color: var(--bg-white);
+  box-shadow: 0 5px 40px rgb(0 0 0 / 15%); 
+} 
+.testimonial-warper h3{
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: var(--text-black);
+}
+.testimonial-warper .testimonials_role{ 
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 25px;
+  color: var(--text-dark-green);
+}
+.testimonial-warper .testimonials_text{ 
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5; 
+}
+
+/* brands */
+.brand_warper{
+  padding:100px 0;
+  background:var(--bg-light-2);
+}
+.brand_warper .brand_subtitle{ 
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: var(--text-light-3);
+}
+.brand_warper .brand_title{
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: var(--text-black);
+}
+.brand_warper .showcase_card img{
+  width: 100%;
+  border-radius: 15px;
+  padding: 45px 25px;
+  background-color: var(--bg-white);
+  box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+  transition: 0.7s;
+}
+.brand_warper .showcase_card img:hover {
+  transform: scale(1.2);
+  position: relative;
+  z-index: 2;
+}
+/* faqs */
+.faq_warper{
+  padding:100px 0 0;
+}
+.faq_warper .faq_subtitle{ 
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  color: var(--text-light-3);
+}
+.faq_warper .faq_title{
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.25;
+  margin-bottom: 25px;
+  color: var(--text-black);
+}
+.faq_warper .accordion-button:hover,
+.faq_warper .accordion-button:focus{
+  box-shadow: none;
+  color:var(--text-dark-green);
+}
+.faq_warper .accordion-item{
+  border: 0;
+}
+.faq_warper .accordion-button{
+  font-size: 21px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--text-black);
+  background-color: var(--text-white);
+  border-radius: 0;
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid var(--text-light-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.faq_wrapper .accordion-button::after{
+  content:'\f067';
+  font-family: "Font Awesome 5.15.4 Free";
+  font-weight: 800;
+  display: inline-block;
+  background-image: none;
 }

@@ -80,4 +80,8 @@
 .banner-warper .learn-more-btn-section{
   justify-content: center;
 }
+/* pricing */
+.free-trail .free_title{
+  font-size: 24px;
+}
 }
