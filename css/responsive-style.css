@@ -84,4 +84,8 @@
 .free-trail .free_title{
   font-size: 24px;
 }
+/* footer */
+.footer_warper .footer_logo img{
+  max-width: 60%; 
+}
 }
